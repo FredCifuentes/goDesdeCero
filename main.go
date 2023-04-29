@@ -2,13 +2,17 @@ package main
 
 import (
 	"fmt"
-	"runtime"
 
-	"github.com/fredcifuentes/goDesdeCero/variables"
+	"github.com/fredcifuentes/goDesdeCero/ejercicios"
 )
 
 func main() {
-	Estado, Nombre := variables.ConvertirTexto(1200)
+
+	numero, cadena := ejercicios.CoversionEntero("120")
+	fmt.Println(numero)
+	fmt.Println(cadena)
+
+	/*Estado, Nombre := variables.ConvertirTexto(1200)
 	fmt.Println(Estado)
 	fmt.Println(Nombre)
 
@@ -24,5 +28,6 @@ func main() {
 	default:
 		fmt.Println("Es Windows en el swithc")
 
-	}
+	}*/
+
 }
