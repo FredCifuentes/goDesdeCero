@@ -1,16 +1,16 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/fredcifuentes/goDesdeCero/ejercicios"
+	"github.com/fredcifuentes/goDesdeCero/teclado"
 )
 
 func main() {
 
-	numero, cadena := ejercicios.CoversionEntero("120")
+	teclado.RecibirDatosEntrada()
+
+	/*numero, cadena := ejercicios.CoversionEntero("120")
 	fmt.Println(numero)
-	fmt.Println(cadena)
+	fmt.Println(cadena)*/
 
 	/*Estado, Nombre := variables.ConvertirTexto(1200)
 	fmt.Println(Estado)
