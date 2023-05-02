@@ -1,16 +1,18 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/teclado"
+	"github.com/fredcifuentes/goDesdeCero/iteraciones"
 )
 
 func main() {
 
-	teclado.RecibirDatosEntrada()
+	iteraciones.IteracionesFor()
+	/*
+		teclado.RecibirDatosEntrada()
 
-	/*numero, cadena := ejercicios.CoversionEntero("120")
-	fmt.Println(numero)
-	fmt.Println(cadena)*/
+		numero, cadena := ejercicios.CoversionEntero("120")
+		fmt.Println(numero)
+		fmt.Println(cadena)*/
 
 	/*Estado, Nombre := variables.ConvertirTexto(1200)
 	fmt.Println(Estado)
