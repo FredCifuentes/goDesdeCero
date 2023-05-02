@@ -1,18 +1,19 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/iteraciones"
+	"github.com/fredcifuentes/goDesdeCero/ejercicios"
 )
 
 func main() {
-
-	iteraciones.IteracionesFor()
+	ejercicios.SolicitarNumero()
 	/*
-		teclado.RecibirDatosEntrada()
+		iteraciones.IteracionesFor()
 
-		numero, cadena := ejercicios.CoversionEntero("120")
-		fmt.Println(numero)
-		fmt.Println(cadena)*/
+			teclado.RecibirDatosEntrada()
+
+			numero, cadena := ejercicios.CoversionEntero("120")
+			fmt.Println(numero)
+			fmt.Println(cadena)*/
 
 	/*Estado, Nombre := variables.ConvertirTexto(1200)
 	fmt.Println(Estado)
