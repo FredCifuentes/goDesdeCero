@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/files"
+	"github.com/fredcifuentes/goDesdeCero/funciones"
 )
 
 func main() {
@@ -35,6 +35,7 @@ func main() {
 
 	//files.SumarTabla()
 
-	files.LeoArchivo()
+	//files.LeoArchivo()
+	funciones.Calculos()
 
 }
