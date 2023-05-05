@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/arreglos"
+	"github.com/fredcifuentes/goDesdeCero/mapas"
 )
 
 func main() {
@@ -41,5 +41,5 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglos.MuestroArrelos()
-	arreglos.Capacidad()
+	mapas.MostrarMapa()
 }
