@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/funciones"
+	"github.com/fredcifuentes/goDesdeCero/arreglos"
 )
 
 func main() {
@@ -38,6 +38,8 @@ func main() {
 	//files.LeoArchivo()
 	//funciones.Calculos()
 
-	funciones.Exponencia(2)
+	//funciones.Exponencia(2)
 
+	//arreglos.MuestroArrelos()
+	arreglos.Capacidad()
 }
