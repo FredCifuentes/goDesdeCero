@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/mapas"
+	"github.com/fredcifuentes/goDesdeCero/usuarios"
 )
 
 func main() {
@@ -41,5 +41,5 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglos.MuestroArrelos()
-	mapas.MostrarMapa()
+	usuarios.AltaUsuario()
 }
