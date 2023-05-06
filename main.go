@@ -1,7 +1,8 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/usuarios"
+	"github.com/fredcifuentes/goDesdeCero/implinterfaces"
+	"github.com/fredcifuentes/goDesdeCero/modelos"
 )
 
 func main() {
@@ -41,5 +42,9 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglos.MuestroArrelos()
-	usuarios.AltaUsuario()
+	Juan := new(modelos.Hombre)
+	Juana := new(modelos.Mujer)
+	implinterfaces.HumanosRespirando(Juan)
+
+	implinterfaces.HumanosRespirando(Juana)
 }
