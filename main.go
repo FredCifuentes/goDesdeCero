@@ -1,7 +1,9 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/difer"
+	"fmt"
+
+	"github.com/fredcifuentes/goDesdeCero/gorutines"
 )
 
 func main() {
@@ -47,5 +49,11 @@ func main() {
 
 	implinterfaces.HumanosRespirando(Juana)*/
 
-	difer.EjemploPanic()
+	//difer.EjemploPanic()
+	canal1 := make(chan bool)
+	go gorutines.MinombreLento("Fredy", canal1)
+
+	fmt.Println("esoty aqui")
+	<-canal1
+
 }
