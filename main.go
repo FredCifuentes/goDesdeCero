@@ -1,8 +1,7 @@
 package main
 
 import (
-	"github.com/fredcifuentes/goDesdeCero/implinterfaces"
-	"github.com/fredcifuentes/goDesdeCero/modelos"
+	"github.com/fredcifuentes/goDesdeCero/difer"
 )
 
 func main() {
@@ -42,9 +41,11 @@ func main() {
 	//funciones.Exponencia(2)
 
 	//arreglos.MuestroArrelos()
-	Juan := new(modelos.Hombre)
+	/*Juan := new(modelos.Hombre)
 	Juana := new(modelos.Mujer)
 	implinterfaces.HumanosRespirando(Juan)
 
-	implinterfaces.HumanosRespirando(Juana)
+	implinterfaces.HumanosRespirando(Juana)*/
+
+	difer.EjemploPanic()
 }

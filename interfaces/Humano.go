@@ -5,5 +5,4 @@ type Humano interface {
 	Cantar()
 	Pensar()
 	Sexo() string
-	EstaVivo() bool
 }
