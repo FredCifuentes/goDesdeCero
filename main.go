@@ -1,9 +1,7 @@
 package main
 
 import (
-	"fmt"
-
-	"github.com/fredcifuentes/goDesdeCero/gorutines"
+	"github.com/fredcifuentes/goDesdeCero/webserver"
 )
 
 func main() {
@@ -50,10 +48,12 @@ func main() {
 	implinterfaces.HumanosRespirando(Juana)*/
 
 	//difer.EjemploPanic()
-	canal1 := make(chan bool)
+	/*canal1 := make(chan bool)
 	go gorutines.MinombreLento("Fredy", canal1)
 
 	fmt.Println("esoty aqui")
-	<-canal1
+	<-canal1*/
+
+	webserver.MiWebServer()
 
 }
